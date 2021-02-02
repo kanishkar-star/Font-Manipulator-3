@@ -1,0 +1,37 @@
+.heading{
+    font-size:23px;
+    width:90%;
+    margin:0px;
+    box-shadow:skyblue;
+}
+.note
+{
+  font-size: 18px;
+  color: red;
+}
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    line-height: 3;
+    text-align: center;
+ }
+  canvas 
+  {
+    border:5px dashed grey;
+    border-radius:20px;
+    box-shadow:10px 10px 10px rgb(0, 0, 0);
+  }
+
+  .copy_right_footer:hover{
+    line-height: 4;
+    background-color:rgb(56, 56, 56)
+  }
+
+  canvas:hover{
+    border:5px solid grey;
+    border-radius:25px;
+    box-shadow:10px 10px 10px orange;
+  }
